@@ -1,0 +1,1308 @@
+.bj{
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index: 0;
+}
+.oo{
+	position:absolute;
+	position:fixed;
+	width:10%;
+	top:3%;
+	left:80%;
+	z-index:5;
+}
+.op{
+	width:100%;
+	opacity:0.5;
+	-webkit-opacity:0.5;
+}
+@keyframes zhuan{
+	0%{transform:rotateZ(0deg);}
+	100%{transform:rotateZ(360deg);}
+}
+@-webkit-keyframes zhuan{
+	0%{-webkit-transform:rotateZ(0deg);}
+	100%{-webkit-transform:rotateZ(360deg);}
+}
+@-moz-keyframes zhuan{
+	0%{-moz-transform:rotateZ(0deg);}
+	100%{-moz-transform:rotateZ(360deg);}
+}
+@-ms-keyframes zhuan{
+	0%{-ms-transform:rotateZ(0deg);}
+	100%{-ms-transform:rotateZ(360deg);}
+}
+@-o-keyframes zhuan{
+	0%{-o-transform:rotateZ(0deg);}
+	100%{-o-transform:rotateZ(360deg);}
+}
+.arrow{
+	z-index:9;
+	position:absolute;
+	top:95%;
+	left:46.5%;
+	width:7.8%;
+	height:4.4%;
+	animation:arrow 2s infinite;
+	-webkit-animation:arrow 2s infinite;
+}
+@keyframes arrow{
+	0%{top:95%;opacity: 1;}
+	100%{top:92%;opacity:0;}
+}
+@-webkit-keyframes arrow{
+	0%{top:95%;-webkit-opacity:1;}
+	100%{top:92%;-webkit-opacity:0;}
+}
+.to{
+	width:100%;
+	height:100%;
+	background:white;
+	position:relative;
+}
+.tob{
+	position: absolute;
+	width:90%;
+	height:35%;
+	top:34%;
+	left:5%;
+	z-index: 1;
+}
+.toc{
+	position: absolute;
+	width:15%;
+	height:45%;
+	top:29%;
+	left:0;
+	z-index: 3;
+}
+.tod{
+	position: absolute;
+	width:15%;
+	height:45%;
+	top:29%;
+	left:9%;
+	z-index: 3;
+}
+@keyframes tod{
+	0%{left:9%;}
+	100%{left:90%;}
+}
+@-webkit-keyframes tod{
+	0%{left:9%;}
+	100%{left:90%;}
+}
+.tog{
+	width:100%;
+	height:50%;
+	position:absolute;
+	background:white;
+	top:30%;
+	left:12%;
+	z-index: 3;
+}
+@keyframes tog{
+	0%{left:12%;}
+	100%{left:95%;}
+}
+@-webkit-keyframes tog{
+	0%{left:12%;}
+	100%{left:95%;}
+}
+.toa{
+	font-size: 2em;
+	color:gold;
+	font-weight: bold;
+	font-family: "华文楷体";
+	z-index: 2;
+	position:absolute;
+	top:47%;
+	width:100%;
+	text-align: center;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+@keyframes toa{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@-webkit-keyframes toa{
+	0%{-webkit-transform:scale(0);}
+	100%{-webkit-transform:scale(1);}
+}
+.top{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.topa{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.topb{
+	width:80%;
+	position: absolute;
+	font-size: 1.3em;
+	color:white;
+	font-family: "宋体";
+	left:100%;
+	bottom:5%;
+}
+@keyframes topb{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes topb{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+.center1{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.center1a{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+@keyframes center1a{
+	0%{top:100%;left:100%;}
+	50%{left:0;}
+	100%{top:0;}
+}
+@-webkit-keyframes center1a{
+	0%{top:100%;left:100%;}
+	50%{left:0;}
+	100%{top:0;}
+}
+.center1b{
+	width:80%;
+	position: absolute;
+	font-size: 1.3em;
+	color:white;
+	font-family: "华文楷体";
+	top:70%;
+	left:10%;
+	top:50%;
+	opacity: 0;
+	-webkit-opacity: 0;
+}
+@keyframes center1b{
+	0%{top:50%;opacity: 0;}
+	100%{top:70%;opacity: 1;}
+}
+@-webkit-keyframes center1b{
+	0%{top:50%;-webkit-opacity: 0;}
+	100%{top:70%;-webkit-opacity: 1;}
+}
+.center2{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.center2a{
+	position: absolute;
+	width:100%;
+	height:50%;
+	left:-100%;
+}
+.center2c{
+	position: absolute;
+	width:100%;
+	height:50%;
+	left:100%;
+}
+@keyframes center2a{
+	0%{left:-100%;opacity: 0.3;}
+	99%{opacity: 0.3;}
+	100%{left:0;opacity: 1;}
+}
+@-webkit-keyframes center2a{
+	0%{left:-100%;-webkit-opacity: 0.3;}
+	99%{-webkit-opacity: 0.3;}
+	100%{left:0;-webkit-opacity: 1;}
+}
+@keyframes center2c{
+	0%{left:100%;opacity: 0.3;}
+	99%{opacity: 0.3;}
+	100%{left:0;opacity: 1;}
+}
+@-webkit-keyframes center2c{
+	0%{left:100%;-webkit-opacity: 0.3;}
+	99%{-webkit-opacity: 0.3;}
+	100%{left:0;-webkit-opacity: 1;}
+}
+.center2b{
+	position: absolute;
+	width:100%;
+	top:55%;
+	font-family: "华文楷体";
+}
+.center2b p{
+	font-size: 1.3em;
+	margin-left: 5%;
+	transform:rotateX(90deg);
+	-webkit-transform:rotateX(90deg);
+}
+@keyframes pl{
+	0%{transform:rotateX(90deg);}
+	100%{transform:rotateX(0deg);}
+}
+@-webkit-keyframes pl{
+	0%{-webkit-transform:rotateX(90deg);}
+	100%{-webkit-transform:rotateX(0deg);}
+}
+.center3{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.center3a{
+	position: absolute;
+	width:100%;
+	height:100%;
+	left:-100%;
+	top:100%;
+	
+}
+@keyframes center3a{
+	0%{top:100%;left:-100%;transform:scale(0.3);}
+	12%{opacity:1;}
+	15%{opacity:0;}
+	18%{opacity:1;}
+	21%{opacity:0;}
+	24%{opacity:1;}
+	27%{opacity:0;}
+	30%{opacity:1;}
+	33%{opacity:0;}
+	36%{opacity:1;}
+	39%{opacity:0;}
+	42%{opacity:1;}
+	45%{opacity:0;}
+	48%{opacity:1;}
+	50%{top:0;left:0;transform:rotateZ(0deg) scale(0.3);}
+	53%{transform:rotateZ(-30deg) scale(0.3);}
+	59%{transform:rotateZ(20deg) scale(0.3);}
+	65%{transform:rotateZ(-15deg) scale(0.3);}
+	68%{transform:rotateZ(0deg) scale(0.3);}
+	100%{top:0;left:0;transform:scale(1);}
+}
+@-webkit-keyframes center3a{
+	0%{top:100%;left:-100%;-webkit-transform:scale(0.3);}
+	12%{-webkit-opacity:1;}
+	15%{-webkit-opacity:0;}
+	18%{-webkit-opacity:1;}
+	21%{-webkit-opacity:0;}
+	24%{-webkit-opacity:1;}
+	27%{-webkit-opacity:0;}
+	30%{-webkit-opacity:1;}
+	33%{-webkit-opacity:0;}
+	36%{-webkit-opacity:1;}
+	39%{-webkit-opacity:0;}
+	42%{-webkit-opacity:1;}
+	45%{-webkit-opacity:0;}
+	48%{-webkit-opacity:1;}
+	50%{top:0;left:0;-webkit-transform:rotateZ(0deg) scale(0.3);}
+	53%{-webkit-transform:rotateZ(-30deg) scale(0.3);}
+	59%{-webkit-transform:rotateZ(20deg) scale(0.3);}
+	65%{-webkit-transform:rotateZ(-15deg) scale(0.3);}
+	68%{-webkit-transform:rotateZ(0deg) scale(0.3);}
+	100%{top:0;left:0;-webkit-transform:scale(1);}
+}
+.center3b{
+	position: absolute;
+	left:10%;
+	font-size: 1.3em;
+	font-family: "华文楷体";
+	color:white;
+	width:80%;
+	top:70%;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+@keyframes center3b{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@-webkit-keyframes center3b{
+	0%{-webkit-transform:scale(0);}
+	100%{-webkit-transform:scale(1);}
+}
+.gai{
+	position: relative;
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+.gaia{
+	position: absolute;
+	width:100%;
+	height:50%;
+}
+.gaib{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:50%;
+}
+.gai p{
+	position: absolute;
+	top:-25%;
+	left:5%;
+	color:red;
+	font-family: "宋体";
+	font-size:5em;
+}
+@keyframes gaic{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:20%;}
+}
+@keyframes gaid{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:40%;}
+}
+@keyframes gaie{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:60%;}
+}
+@-webkit-keyframes gaic{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:20%;}
+}
+@-webkit-keyframes gaid{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:40%;}
+}
+@-webkit-keyframes gaie{
+	0%{top:-25%;left:5%;}
+	25%{top:35%;left:5%;}
+	50%{top:5%;left:70%;}
+	75%{top:52%;left:70%;}
+	100%{top:52%;left:60%;}
+}
+.ga{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.gaa{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.gab{
+	position: absolute;
+	width:80%;
+	left:10%;
+	bottom:0;
+	color:white;
+	font-size: 1.3em;
+}
+@keyframes gab{
+	0%{bottom:-60%;}
+	100%{bottom:0;}
+}
+@-webkit-keyframes gab{
+	0%{bottom:-60%;}
+	100%{bottom:0;}
+}
+.center4{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.center4a{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+.center4 p{
+	position: absolute;
+	width:1%;
+	top:20%;
+	font-size:1.3em;
+	font-family: "华文楷体";
+	opacity: 0;
+	-webkit-opacity:0;
+}
+.t1{
+	position: absolute;
+	right:15%;
+}
+.t2{
+	position: absolute;
+	right:30%;
+}
+.t3{
+	position: absolute;
+	right:45%;
+}
+.t4{
+	position: absolute;
+	right:60%;
+}
+.center4 .t5{
+	position: absolute;
+	top:30%;
+	font-size: 0.9em;
+	right:75%;
+}
+@keyframes xian{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	99%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@-webkit-keyframes xian{
+	0%{-webkit-opacity: 0;}
+	25%{-webkit-opacity: 1;}
+	99%{-webkit-opacity: 1;}
+	100%{-webkit-opacity: 0;}
+}
+.x{
+	position: absolute;
+	width:7%;
+}
+.x1{
+	height:86%;
+	right:15%;
+	top:100%;
+}
+.x2{
+	height:89%;
+	right:25%;
+	top:-100%;
+}
+.x3{
+	height:94%;
+	right:35%;
+	top:100%;
+}
+.x4{
+	height:65%;
+	right:45%;
+	top:-100%;
+}
+.x5{
+	height:61%;
+	right:55%;
+	top:100%;
+}
+.x6{
+	height:66%;
+	right:65%;
+	top:-100%;
+}
+.x7{
+	height:38%;
+	right:75%;
+	top:100%;
+}
+@keyframes px{
+	0%{top:100%;}
+	100%{top:5%;}
+}
+@-webkit-keyframes px{
+	0%{top:100%;}
+	100%{top:5%;}
+}
+@keyframes ps{
+	0%{top:-100%;}
+	100%{top:5%;}
+}
+@-webkit-keyframes ps{
+	0%{top:-100%;}
+	100%{top:5%;}
+}
+.center5{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.center5a{
+	position: absolute;
+	width:100%;
+	height:100%;
+	left:-8%;
+	box-shadow:1em 1em rgba(0,0,0,0.7);
+	transform:scale(0.1);
+	-webkit-transform:scale(0.1);
+}
+@keyframes center5a{
+	0%{transform:scale(0.1);top:100%;}
+	30%{transform:scale(0.1);top:-40%;}
+	70%{transform:scale(0.1);top:-2%;}
+	100%{transform:scale(0.4);top:-2%;}
+}
+@-webkit-keyframes center5a{
+	0%{-webkit-transform:scale(0.1);top:100%;}
+	30%{-webkit-transform:scale(0.1);top:-40%;}
+	70%{-webkit-transform:scale(0.1);top:-2%;}
+	100%{-webkit-transform:scale(0.4);top:-2%;}
+}
+.center5b{
+	position: absolute;
+	color:white;
+	font-family: "华文楷体";
+	font-size: 1.4em;
+	width:80%;
+	left:10%;
+	bottom:-60%;
+}
+@keyframes center5b{
+	0%{bottom:-60%;}
+	100%{bottom:0;}
+}
+@-webkit-keyframes center5b{
+	0%{bottom:-60%;}
+	100%{bottom:0;}
+}
+.center6{
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.center6a{
+	position:absolute;
+	width:100%;
+	height:50%;
+	left:-100%;
+}
+@keyframes center6a{
+	0%{left:-100%;}
+	15%{left:0;width:100%;height:50%;}
+	30%{width:50%;height:25%;}
+	60%{left:0;top:0;}
+	70%{left:15%;top:35%;}
+	80%{left:0;top:0;width:50%;height:25%;}
+	100%{left:0;top:0;width:100%;height:50%;}
+}
+@-webkit-keyframes center6a{
+	0%{left:-100%;}
+	15%{left:0;width:100%;height:50%;}
+	30%{width:50%;height:25%;}
+	60%{left:0;top:0;}
+	70%{left:15%;top:35%;}
+	80%{left:0;top:0;width:50%;height:25%;}
+	100%{left:0;top:0;width:100%;height:50%;}
+}
+.center6b{
+	position: absolute;
+	width:100%;
+	height:50%;
+	right:-100%;
+	bottom:0;
+}
+@keyframes center6b{
+	0%{right:-100%;}
+	30%{right:-100%;}
+	45%{right:0;width:100%;height:50%;}
+	60%{width:50%;height:25%;right:0;bottom:0;}
+	70%{right:15%;bottom:35%;}
+	80%{right:0;bottom:0;width:50%;height:25%;}
+	100%{right:0;bottom:0;width:100%;height:50%;}
+}
+@-webkit-keyframes center6b{
+	0%{right:-100%;}
+	30%{right:-100%;}
+	45%{right:0;width:100%;height:50%;}
+	60%{width:50%;height:25%;right:0;bottom:0;}
+	70%{right:15%;bottom:35%;}
+	80%{right:0;bottom:0;width:50%;height:25%;}
+	100%{right:0;bottom:0;width:100%;height:50%;}
+}
+.center6c{
+	position: absolute;
+	font-family: "隶书";
+	font-size:1.3em;
+	width:80%;
+	left:100%;
+	top:50%;
+}
+@keyframes center6c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes center6c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+.center7{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.center7a{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:100%;
+}
+@keyframes center7a{
+	0%{top:100%;}
+	20%{top:15%;}
+	30%{top:35%;}
+	40%{top:15%;}
+	50%{top:35%;}
+	70%{top:0;}
+	100%{top:0;}
+}
+@-webkit-keyframes center7a{
+	0%{top:100%;}
+	20%{top:15%;}
+	30%{top:35%;}
+	40%{top:15%;}
+	50%{top:35%;}
+	70%{top:0;}
+	100%{top:0;}
+}
+.center7b{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:100%;
+	left:-100%;
+}
+@keyframes center7b{
+	0%{transform:rotateZ(0deg);top:100%;left:-100%;}
+	100%{transform:rotateZ(1080deg);top:50%;left:0;}
+}
+@-webkit-keyframes center7b{
+	0%{-webkit-transform:rotateZ(0deg);top:100%;left:-100%;}
+	100%{-webkit-transform:rotateZ(1080deg);top:50%;left:0;}
+}
+.center7c{
+	position: absolute;
+	font-family: "隶书";
+	font-size:1.3em;
+	color:red;
+	width:80%;
+	left:100%;
+	top:50%;
+}
+@keyframes center7c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes center7c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+.center7d{
+	position: absolute;
+	font-family: "隶书";
+	font-size:1.3em;
+	color:green;
+	width:80%;
+	left:-100%;
+	top:40%;
+}
+@keyframes center7d{
+	0%{left:-100%;}
+	100%{left:60%;}
+}
+@-webkit-keyframes center7d{
+	0%{left:-100%;}
+	100%{left:60%;}
+}
+.center7e{
+	position: absolute;
+	font-family: "隶书";
+	font-size:1.3em;
+	color:brown;
+	width:80%;
+	left:100%;
+	top:90%;
+}
+@keyframes center7e{
+	0%{left:100%;}
+	100%{left:60%;}
+}
+@-webkit-keyframes center7e{
+	0%{left:100%;}
+	100%{left:60%;}
+}
+.center8{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.center8a{
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:-100%;
+}
+@keyframes center8a{
+	0%{top:-100%;left:-100;}
+	100%{top:0;left:0;}
+}
+@-webkit-keyframes center8a{
+	0%{top:-100%;left:-100;}
+	100%{top:0;left:0;}
+}
+.center8b{
+	position: absolute;
+	width:100%;
+	color:red;
+	font-size:2em;
+	font-family: "华文楷体";
+	top:-100%;
+	left:-130%;
+	transform:rotateZ(45deg);
+	-webkit-transform:rotateZ(45deg);
+}
+@keyframes center8b{
+	0%{top:-100%;left:-130%;}
+	100%{top:50%;left:20%;}
+}
+@-webkit-keyframes center8b{
+	0%{top:-100%;left:-130%;}
+	100%{top:50%;left:20%;}
+}
+.center11{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.center11a{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:-50%;
+	left:-100%;
+}
+@keyframes center11a{
+	0%{top:-25%;left:-50%;width:50%;height:25%;}
+	60%{top:75%;left:50%;}
+	80%{top:0;left:0;width:50%;height:25%;}
+	100%{top:0;left:0;width:100%;height:50%;}
+}
+@-webkit-keyframes center11a{
+	0%{top:-25%;left:-50%;width:50%;height:25%;}
+	60%{top:75%;left:50%;}
+	80%{top:0;left:0;width:50%;height:25%;}
+	100%{top:0;left:0;width:100%;height:50%;}
+}
+.center11b{
+	position: absolute;
+	top:60%;
+	width:80%;
+	left:10%;
+	font-size: 1.3em;
+	color:green;
+	font-family: "华文楷体";
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+@keyframes center11b{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@-webkit-keyframes center11b{
+	0%{-webkit-transform:scale(0);}
+	100%{-webkit-transform:scale(1);}
+}
+.center13{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.center13a,.center13b{
+	position: absolute;
+	width:100%;
+	height:50%;
+}
+.center13c,.center13d{
+	position: absolute;
+	width:10%;
+	right:0;
+	transform:rotateZ(225deg);
+	-webkit-transform:rotateZ(225deg);
+}
+@keyframes center13a{
+	0%{opacity:0;}
+	19%{opacity:0;}
+	20%{opacity:1;}
+	39%{opacity:1;}
+	40%{opacity:0;}
+	59%{opacity:0;}
+	60%{opacity:1;}
+	79%{opacity:1;}
+	80%{opacity:0;}
+	99%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes center13b{
+	0%{opacity:1;}
+	19%{opacity:1;}
+	20%{opacity:0;}
+	39%{opacity:0;}
+	40%{opacity:1;}
+	59%{opacity:1;}
+	60%{opacity:0;}
+	79%{opacity:0;}
+	80%{opacity:1;}
+	99%{opacity:1;}
+	100%{opacity:0;}
+}
+@-webkit-keyframes center13a{
+	0%{-webkit-opacity:0;}
+	19%{-webkit-opacity:0;}
+	20%{-webkit-opacity:1;}
+	39%{-webkit-opacity:1;}
+	40%{-webkit-opacity:0;}
+	59%{-webkit-opacity:0;}
+	60%{-webkit-opacity:1;}
+	79%{-webkit-opacity:1;}
+	80%{-webkit-opacity:0;}
+	99%{-webkit-opacity:0;}
+	100%{-webkit-opacity:1;}
+}
+@-webkit-keyframes center13b{
+	0%{-webkit-opacity:1;}
+	19%{-webkit-opacity:1;}
+	20%{-webkit-opacity:0;}
+	39%{-webkit-opacity:0;}
+	40%{-webkit-opacity:1;}
+	59%{-webkit-opacity:1;}
+	60%{-webkit-opacity:0;}
+	79%{-webkit-opacity:0;}
+	80%{-webkit-opacity:1;}
+	99%{-webkit-opacity:1;}
+	100%{-webkit-opacity:0;}
+}
+.center13 p{
+	position: absolute;
+	font-family: "华文楷体";
+	font-size:1.3em;
+	color:green;
+	width:100%;
+}
+.tx1{
+	left:100%;
+	top:55%;
+}
+.tx2{
+	left:-100%;
+	top:60%;
+}
+.tx3{
+	left:100%;
+	top:65%;
+}
+.tx4{
+	left:-100%;
+	top:70%;
+}
+.tx5{
+	left:100%;
+	top:75%;
+}
+.tx6{
+	left:-100%;
+	top:80%;
+}
+.tx7{
+	left:100%;
+	top:85%;
+}
+@keyframes py{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@keyframes pz{
+	0%{left:-100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes py{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes pz{
+	0%{left:-100%;}
+	100%{left:10%;}
+}
+.center14{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.center14a{
+	position: absolute;
+	width:100%;
+	height:40%;
+	top:100%;
+	left:-100%; 
+}
+@keyframes center14a{
+	0%{top:100%;left:-100%;}
+	50%{top:20%;left:0;transform:scale(1);}
+	60%{transform:scale(0.5);}
+	70%{transform:scale(1);}
+	80%{transform:scale(0.5);}
+	90%{transform:scale(1);}
+	100%{top:20%;left:0;}
+}
+@-webkit-keyframes center14a{
+	0%{top:100%;}
+	50%{top:20%;left:0;-webkit-transform:scale(1);}
+	60%{-webkit-transform:scale(0.5);}
+	70%{-webkit-transform:scale(1);}
+	80%{-webkit-transform:scale(0.5);}
+	90%{-webkit-transform:scale(1);}
+	100%{top:20%;left:0;}
+}
+.center14b{
+	position: absolute;
+	top:30%;
+	width:80%;
+	left:10%;
+	font-family:"华文楷体";
+	font-size: 1.3em;
+	opacity:0;
+	-webkit-opacity:0;
+}
+@keyframes center14b{
+	0%{top:30%;opacity:0;}
+	100%{top:70%;opacity:1;}
+}
+@-webkit-keyframes center14b{
+	0%{top:30%;-webkit-opacity:0;}
+	100%{top:70%;-webkit-opacity:1;}
+}
+.center14c{
+	position: absolute;
+	top:10%;
+	width:100%;
+	left:100%;
+	text-align: center;
+	font-family:"华文楷体";
+	font-size:2em;
+}
+@keyframes center14c{
+	0%{left:100%;}
+	100%{left:0%;}
+}
+@-webkit-keyframes center14c{
+	0%{left:100%;}
+	100%{left:0%;}
+}
+.center15{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.center15a{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:-50%;
+	opacity: 0.5; 
+}
+@keyframes center15a{
+	0%{top:-50%;opacity: 0.5;}
+	20%{top:50%;}
+	40%{top:0;}
+	60%{top:50%;}
+	80%{top:0;opacity: 0.5;}
+	100%{top:0;opacity: 1;}
+}
+@-webkit-keyframes center15a{
+	0%{top:-50%;-webkit-opacity: 0.5;}
+	20%{top:50%;}
+	40%{top:0;}
+	60%{top:50%;}
+	80%{top:0;-webkit-opacity: 0.5;}
+	100%{top:0;-webkit-opacity: 1;}
+}
+.center15b{
+	position: absolute;
+	width:100%;
+	height:50%;
+	top:100%; 
+}
+@keyframes center15b{
+	0%{top:100%;opacity: 0.5;}
+	20%{top:0;}
+	40%{top:50%;}
+	60%{top:0;}
+	80%{top:50%;opacity: 0.5;}
+	100%{top:50%;opacity: 1;}
+}
+@-webkit-keyframes center15b{
+	0%{top:100%;-webkit-opacity: 0.5;}
+	20%{top:0;}
+	40%{top:50%;}
+	60%{top:0;}
+	80%{top:50%;-webkit-opacity: 0.5;}
+	100%{top:50%;-webkit-opacity: 1;}
+}
+.center15c{
+	position: absolute;
+	color:white;
+	font-size: 1.3em;
+	font-family:"华文楷体";
+	top:50%;
+	left:100%;
+	width:80%;
+}
+@keyframes center15c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+@-webkit-keyframes center15c{
+	0%{left:100%;}
+	100%{left:10%;}
+}
+.center16{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.center16a{
+	position: absolute;
+	width:100%;
+	height:50%;
+	opacity:0;
+	-webkit-opacity:0; 
+}
+@keyframes center16a{
+	0%{opacity:0;}
+	10%{opacity:0;}
+	100%{opacity:1;}
+}
+@-webkit-keyframes center16a{
+	0%{-webkit-opacity:0;}
+	10%{-webkit-opacity:0;}
+	100%{-webkit-opacity:1;}
+}
+.center16c{
+	position: absolute;
+	width:100%;
+	height:50%; 
+}
+@keyframes center16c{
+	0%{opacity:1;}
+	30%{opacity:1;}
+	100%{opacity:0;}
+}
+@-webkit-keyframes center16c{
+	0%{-webkit-opacity:1;}
+	30%{-webkit-opacity:1;}
+	100%{-webkit-opacity:0;}
+}
+.center16b{
+	position: absolute;
+	width:80%;
+	color:red;
+	font-size: 1.3em;
+	font-family: "华文楷体";
+	top:30%;
+	left:10%;
+	opacity:0;
+	-webkit-opacity:0;
+}
+@keyframes center16b{
+	0%{top:30%;opacity:0;}
+	50%{top:30%;opacity:0;}
+	100%{top:60%;opacity:1;}
+}
+@-webkit-keyframes center16b{
+	0%{top:30%;-webkit-opacity:0;}
+	50%{top:30%;-webkit-opacity:0;}
+	100%{top:60%;-webkit-opacity:1;}
+}
+.bottom{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+.rishengs{
+	position: absolute;
+	width:100%;
+	height:57%;
+}
+.rishengx{
+	position: absolute;
+	top:57%;
+	width:100%;
+	height:43%;
+}
+.bottoma{
+	position: absolute;
+	width:28%;
+	height:17%;
+	top:57%;
+	left:36%;
+}
+@keyframes bottoma{
+	0%{top:57%;}
+	100%{top:10%;}
+}
+@-webkit-keyframes bottoma{
+	0%{top:57%;}
+	100%{top:10%;}
+}
+.xiuxiu{
+	position: absolute;
+	width:28%;
+	height:17%;
+	top:57%;
+	left:36%;
+}
+@keyframes xiuxiu{
+	0%{top:57%;}
+	95%{opacity: 1;}
+	96%{opacity: 0;}
+	100%{top:10%;opacity: 0;}
+}
+@-webkit-keyframes xiuxiu{
+	0%{top:57%;}
+	99%{-webkit-opacity: 1;}
+	95%{-webkit-opacity: 1;}
+	96%{-webkit-opacity: 0;}
+	100%{top:10%;-webkit-opacity: 0;}
+}
+.xiu{
+	position: absolute;
+	width:6%;
+	height:5%;
+	left:47%;
+	top:-5%;
+}
+@keyframes xiu{
+	0%{top:-5%;}
+	100%{top:10%;}
+}
+@-webkit-keyframes xiu{
+	0%{top:-5%;}
+	100%{top:10%;}
+}
+.yi{
+	position: absolute;
+	width:6%;
+	height:5%;
+	left:47%;
+	top:-5%;
+}
+@keyframes yi{
+	0%{top:-5%;}
+	100%{top:16%;}
+}
+@-webkit-keyframes yi{
+	0%{top:-5%;}
+	100%{top:16%;}
+}
+.xiu2{
+	position: absolute;
+	width:6%;
+	height:5%;
+	left:47%;
+	top:-5%;
+}
+@keyframes xiu2{
+	0%{top:-5%;}
+	100%{top:22%;}
+}
+@-webkit-keyframes xiu2{
+	0%{top:-5%;}
+	100%{top:22%;}
+}
+.aa{
+	position: absolute;
+	top:59%;
+	left:25%;
+	width:50%;
+	height:32%;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+.bottomb{
+	position: absolute;
+	top:29%;
+	left:100%;
+	width:36%;
+	height:10%;
+}
+@keyframes bottomb{
+	0%{left:100%;}
+	100%{left:32%;}
+}
+@-webkit-keyframes bottomb{
+	0%{left:100%;}
+	100%{left:32%;}
+}
+.bottomc{
+	position: absolute;
+	font-size: 1.1em;
+	font-family: "华文楷体";
+	color:white;
+	bottom:20%;
+	width:100%;
+	text-align: center;
+	opacity: 0;
+	-webkit-opacity: 0;
+}
+@keyframes bottomc{
+	0%{bottom:20%;opacity: 0;}
+	100%{bottom:0;opacity: 1;}
+}
+@-webkit-keyframes bottomc{
+	0%{bottom:20%;-webkit-opacity: 0;}
+	100%{bottom:0;-webkit-opacity: 1;}
+}
+.bottomd{
+	position: absolute;
+	width:16%;
+	height:10%;
+	top:70%;
+	left:42%;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+@keyframes bottomd{
+	0%{transform:scale(0);}
+	100%{transform:scale(1);}
+}
+@-webkit-keyframes bottomd{
+	0%{-webkit-transform:scale(0);}
+	100%{-webkit-transform:scale(1);}
+}
+a{
+	text-decoration:none;
+}
